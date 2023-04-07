@@ -57,7 +57,7 @@ VALUES
     ('P20 Pro', 'Huawei', 5, 36000);
 
 SELECT
-    *
+    product_name,manufacturer, price
 FROM
     `mobile_phones`
 WHERE
